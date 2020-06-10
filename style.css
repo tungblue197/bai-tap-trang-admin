@@ -290,3 +290,6 @@ header.header{
 .detail__form .line .input.full-address{
     width: 100%;
 }
+.detail__title{
+    margin-bottom: 16px;
+}

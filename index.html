@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a5fc7a8497.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./images/vnpost-logo.png" alt="">
+        </div>
+        <div class="admin-info">
+            <i class="far fa-user-circle"></i>
+            <span class="username">admin321</span>
+            <span class="useremail">test@ncc.asia</span>
+        </div>
+    </header>
+    <nav class="nav-bar">
+        <ul class="nav">
+            <li class="nav__item">
+                <a href="#" class="nav__link active">hệ thống</a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link">kê khai</a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link">quản lý sự vụ</a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link">báo cáo thống kê</a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link">quản lý biên lai</a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link">tra cứu</a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="vertical-nav">
+        <div class="vertical-nav__title">
+            <i class="fas fa-bars" id="btn-open-nav"></i>
+        </div>
+        <li class="vertical-nav__item" id="system">
+            <div class="vertical-nav__btn-box">
+                <a>
+                    <i class="fas fa-cog"></i>
+                    <span>Danh mục hệ thống</span>
+                    <i class="fas fa-plus"></i>
+                    <i class="fas fa-minus"></i>
+                </a>
+            </div>
+            <div class="vertical-nav__sub">
+                <a class="vertical-nav__sub-item" href="#">
+                    <i class="fas fa-user-cog"></i>
+                    <span>Hệ thống người dùng</span>
+                </a>
+                <a class="vertical-nav__sub-item" href="#">
+                    <i class="fas fa-toolbox"></i>
+                    <span>Sửa lỗi hệ thống</span>
+                </a>
+            </div>
+        </li>
+        <li class="vertical-nav__item" id="system">
+            <div class="vertical-nav__btn-box">
+                <a>
+                    <i class="far fa-address-card"></i>
+                    <span>Quản lý người dùng</span>
+                    <i class="fas fa-plus"></i>
+                    <i class="fas fa-minus"></i>
+                </a>
+            </div>
+            <div class="vertical-nav__sub">
+                <a class="vertical-nav__sub-item" href="#">
+                    <i class="fas fa-user-cog"></i>
+                    <span>Hệ thống người dùng</span>
+                </a>
+                <a class="vertical-nav__sub-item" href="#">
+                    <i class="fas fa-toolbox"></i>
+                    <span>Sửa lỗi hệ thống</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+    <div class="contents">
+        <div class="catogory-grid">
+            <div class="catogory-grid__title">
+                <h3>DANH MỤC DẠNG LƯỚI</h3>
+            </div>
+            <div class="catogory-grid__contents">
+                <div class="catogory-grid__search-box">
+                    <label for="">Tìm kiếm : <input type="text" name="" id=""></label>
+                    <button><i class="fas fa-search"></i> Tìm kiếm</button>
+                </div>
+                <div class="catogory-grid__grid-company">
+                    <ul>
+                        <li>
+                            <i class="fas fa-folder"></i>
+                            <span class="title">00 - Tổng công ty.</span>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-folder"></i>
+                                    <span class="title">10 - Bưu điện hà nội.</span>
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-folder"></i>
+                                            <span class="title">1221 - Bưu điện trung tâm.</span>
+                                            <ul>
+                                                <li>
+                                                    <i class="fas fa-folder"></i>
+                                                    <span class="title">1232223 - KLT Hoàng Mai.</span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <h1 class="detail__title">THÔNG TIN CHI TIẾT</h1>
+            <div class="detail__form">
+                <div class="line">
+                    <div class="label">
+                        <span>Mã : </span>
+                    </div>
+                    <div class="input">
+                        <input type="text" class="code" placeholder="3211223" />
+                        <span>Tên :</span>
+                        <input type="text" class="name" placeholder="KLM Vinh Hoang">
+                    </div>
+                    
+                </div>
+                <div class="line">
+                    <div class="label">
+                        <span>Địa chỉ : </span>
+                    </div>
+                    <div class="input">
+                        <input type="text"  placeholder="Vĩnh Hưng" />
+                        <input type="text"  placeholder="Hoàng Mai" />
+                        <input type="text"  placeholder="Hà Nội" />
+                        <input type="text" class="full-address"  placeholder="Số 17 Vĩnh Hưng - Hoàng Mai - Hà Nội" />
+                    </div>
+                    
+                </div>
+                <div class="line">
+                    <div class="label">
+                        <span>Số điện thoại : </span>
+                    </div>
+                    <div class="input">
+                        <input type="text"  placeholder="3211223" />
+                        <span>Sô fax :</span>
+                        <input type="text"  placeholder="KLM Vinh Hoang">
+                    </div>
+                    
+                </div>
+                <div class="line">
+                    <div class="label">
+                        <span>Loại BC : </span>
+                    </div>
+                    <div class="input">
+                        <input type="text"  placeholder="3211223" />
+                        <span>Phương thức :</span>
+                        <input type="text"  placeholder="Acc Hoang">
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="label">
+                        <span>Cơ quan bản xếp hạng : </span>
+                    </div>
+                    <div class="input">
+                        <input type="text"   />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
